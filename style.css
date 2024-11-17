@@ -1,3 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+
 .main{
     width: 1000px;
     height: 540px;
@@ -5,7 +12,8 @@
     font-family: sans-serif;
     border: 5px solid red;
     margin: auto;
-    text-shadow: 5ch;
+    box-shadow: 0px 0px 5px 10px rgb(92, 14, 161) , inset 0px 5px 10px rgb(119, 15, 156);
+}
 .row1{
     width: 1000px;
     height: 100px;
@@ -17,6 +25,7 @@
     text-decoration: underline;
     background-color: rgb(52, 136, 220);
     text-transform: uppercase;
+    text-shadow: 0px 0px 10px purple, 0px 0px 5px red;
     
 }
 .row2c1{
@@ -63,4 +72,28 @@
     width: 100%;
     height: 1000px;
     background-color: rgb(250, 215, 245);
+}
+
+.project-section{
+width: 100%;
+height: 500px;
+background-color: #f7f2ec;
+}
+.project-section-mid{
+    width: 1320px;
+    margin: auto;
+}
+.flexexample{
+    width: 1320px;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;  */count white-space*/
+
+}
+.flexitems{
+    background-color: purple;
+    color: aliceblue;
+    margin: 10px;
+    text-align: center;
+    width: 500px;
 }

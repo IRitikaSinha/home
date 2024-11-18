@@ -4,8 +4,36 @@
     font-family: sans-serif;
 }
 
+.slink{
+width: 200px;
+height: 5px;
+text-align: center;
+padding: 25px 0px;
+box-shadow: 0px 0px 5px 5px #ccc;
+align-items: flex-start;
+flex-direction: row;
+margin-bottom: 50px;
+margin:auto;
+padding-bottom: 50px;
+background-color: #ccc;
+}
+
+.slink i {
+color: blue;
+font-size: 30px;
+transition: 0.5s;
+}
+.slink i:hover{
+    color: red;
+}
+
+
+.back{
+    padding-top: 50px;
+}
 
 .main{
+    padding-top: 50px;
     width: 1000px;
     height: 540px;
     background-color: peachpuff;
@@ -14,7 +42,11 @@
     margin: auto;
     box-shadow: 0px 0px 5px 10px rgb(92, 14, 161) , inset 0px 5px 10px rgb(119, 15, 156);
 }
+
 .row1{
+
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-weight: 400;
     width: 1000px;
     height: 100px;
     color: aliceblue;
@@ -149,6 +181,25 @@ padding-bottom: 50px;
     box-shadow: 0px 0px 10px 5px #ccc;
 }
 
+
 .items img{
     width: 50px;
 }
+
+.hoverbox {
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    background-color: rebeccapurple;
+    transition: 2s;
+
+}
+.hoverbox:hover{
+    background-color: black;
+    color: white;
+}
+.hoverbox h2{
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-weight: 400;
+}
+
